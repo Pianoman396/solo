@@ -1,0 +1,1 @@
+<?php require_once("sec.php"); pathcheck("MYPATH"); define("DB_HOST", "localhost"); define("DB_NAME", "linkarchive"); define("DB_USER", "root"); define("DB_PASS", "root");

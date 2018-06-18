@@ -1,0 +1,118 @@
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 1%;
+    background-color:#fefefe;
+}
+
+textarea {
+    width: 200px;
+    height: 200px;
+    color:purple;
+    padding: 0.5%;
+    resize:none;
+}
+
+i{
+    color:purple;
+}
+
+label{
+    color:gray;
+}
+
+hr {
+    background-color: purple;
+    display: block;
+    width: 90%;
+    padding: 0.1%;
+    margin: 10px auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+input[type="search"]:focus{
+    border:1px solid purple;
+    padding:0.50%;
+}
+
+input[type="search"]{
+    width:200px;
+    padding:0.50%;
+    color:gray;
+}
+input[type="submit"] {
+    -webkit-transition: 0.1s ease-in;
+    -o-transition: 0.1s ease-in;
+    -moz-transition: 0.1s ease-in;
+    transition: 0.1s ease-in;
+    padding: 0.22%;
+    font-weight: 600;
+    outline: 0;
+
+
+}
+
+input[type="submit"]:hover {
+    background-color: purple;
+    color: snow;
+    cursor: pointer;
+}
+input[type="text"]{
+    width:200px;
+    padding:0.55%;
+}
+input[type="text"]:focus{
+	border: 1px solid purple;
+}
+
+.data{
+	margin: 0 auto;
+	width: 80%;
+    height:600px;
+	text-align: center;
+    overflow-y:scroll;
+
+}
+.tringle{
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	background-color: transparent;
+	border:120px solid transparent;
+	border-top: 120px solid purple;
+	border-right: 120px solid purple;
+	top: 0px;
+	right: 0px;
+}
+th{
+    background:purple;
+    color:#1111;
+    width:100%;
+}
+th td{
+    padding-left:8px;
+    padding-right:8px;
+    border:0;
+}
+
+tr td{
+    display: inline-block;
+    padding:5px;
+    border:1px solid purple;
+}
+.notice{
+    padding:1%;
+    background-color:#6A3A7A;
+    color:snow;
+}
+.notice--create{
+    border-radius:5%;
+}
