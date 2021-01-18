@@ -8,6 +8,4 @@
 
 ## Arran
 
-I wanted to name it **Arran** because I like the old stories and places 
-
 [Arran](https://en.wikipedia.org/wiki/Arran_(Caucasus)) - About Arran. 
